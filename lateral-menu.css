@@ -1,0 +1,7 @@
+.lateral_menu{
+     left: -400px;
+}
+
+.lateral_menu--active{
+     left: 0vw;
+ }

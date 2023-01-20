@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="lateral-menu.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+     theme: {
+          extend: {
+               colors: {
+                    clifford: '#da373d',
+               }
+          }
+     }
+}
+
+</script>
+<title>Document</title>
+</head>
+
+<body class="bg-gray-500">
+     <header class="grid grid-cols-5 p-4 items-center shadow-xl">
+          <div class="header_menu flex lg:hidden">
+               <button class="header_menu col-span-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="50" width="50"><path d="M5.15 37.4v-4.7h37.7v4.7Zm0-11.05v-4.7h37.7v4.7Zm0-11.05v-4.75h37.7v4.75Z"/></svg>
+               </button>
+          </div>
+          <div class="hidden lg:flex col-span-1">
+               <a href="index.html" >logo</a>
+          </div>
+          
+          <div class="col-span-4 justify-around hidden lg:flex">
+               <a href="destaques.html">Destaques</a>
+               <a href="colecoes.html">Coleções</a>
+               <a href="pulseiras.html">Pulseiras</a>
+               <a href="colares.html">Colares</a>
+               <a href="brincos.html">Brincos</a>
+               <a href="contato.html">Contato</a>   
+          </div>
+
+          <div class="flex justify-end lg:hidden col-span-4">
+               <a href="index.html" >logo</a>
+          </div>
+     </header>
+
+     <nav class="shadow-xl lateral_menu h-screen bg-gray-500 p-10 flex flex-col z-50 absolute lg:hidden">
+  
+          <a href="index.html" class="p-5" >inicio</a>
+          
+          <a href="colecoes.html" class="p-5" >Coleções</a>
+  
+          <a href="destaques.html" class="p-5" >Destaque</a>
+          
+          <a href="pulseiras.html" class="p-5" >Pulseiras</a>
+          
+          <a href="colares.html" class="p-5" >Colares</a>
+          
+          <a href="brincos.html" class="p-5" >Brincos</a>
+          
+          <a href="contato.html" class="p-5" >Contato</a>
+     </nav>
+
+<main>
+
+</main>
+
+<footer class="flex justify-around my-10">
+     
+     <div class="flex flex-col border-l-2 pl-7 border-black">
+          <a href="destaques.html" class="border-b-2 border-black pr-1 text-lg">Destaques</a>
+          <a href="pulseiras.html" class="border-b-2 border-black pr-1 text-lg">Pulseiras</a>
+          <a href="colares.html" class="border-b-2 border-black pr-1 text-lg">Colares</a>
+          <a href="brincos.html" class="border-b-2 border-black pr-1 text-lg">Brincos</a>
+     </div>
+     <div class="flex flex-col border-l-2 pl-7 border-black">
+          <a href="contato.html" class="border-b-2 border-black pr-1 text-lg">Contatos</a>
+          <a href="" class="pr-1 text-lg">Instagram</a>
+          <a href="" class="pr-1 text-lg">whatsapp</a>
+          <a href="" class="pr-1 text-lg">TikTok</a>
+     </div>
+
+</footer>
+
+<script src="index.js"></script>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+</body>
+</html>
